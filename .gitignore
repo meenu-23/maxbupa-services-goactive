@@ -1,0 +1,59 @@
+# Intellij
+.idea
+*.iml
+*.iws
+*.ipr
+
+#Misc
+*.class
+*.groovy
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+#Directories
+target
+bin/
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Dependency Jar
+!ojdbc6-11.2.0.3.jar
+!commons-dbutils-1.6.jar
+
+# Jars for TripleDESEncrypt Logic
+!DESEncrypt.jar
+!sunjce_provider.jar
+!jce1_2_2.jar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+
+# gradle generated files
+*.gradle
+.gradle
+gradle
+gradlew
+gradlew.bat
+!build.gradle
+*.md
+build
+out
+
+
